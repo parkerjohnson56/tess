@@ -41,8 +41,8 @@ export default function Navbar() {
             </Link>
           </div>
           
-          {/* Logo - Centered on desktop, left-aligned after menu button on mobile */}
-          <Link href="/" className="md:absolute md:left-1/2 md:-translate-x-1/2">
+          {/* Logo - Centered on desktop, mobile-centered with margin */}
+          <Link href="/" className="md:absolute md:left-1/2 md:-translate-x-1/2 flex-1 text-center">
             <h1 className="text-3xl md:text-5xl font-serif text-[#4A2545] hover:text-primary transition-colors">
               Tess & Saundra
             </h1>
