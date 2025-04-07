@@ -24,7 +24,7 @@ export default function Books() {
     },
     {
       title: "More to This",
-      image: "/images/More.png",
+      image: "/images/more.png",
       alt: "More to This book cover",
       link: "/books/more-to-this"
     }

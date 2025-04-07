@@ -17,14 +17,14 @@ const lato = Lato({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Tess & Saundra Keeler | Romance Authors',
+    default: 'Tess & Saundra Keeler | Contemporary Romance Authors',
     template: '%s | Tess & Saundra Keeler'
   },
-  description: 'Official website of romance authors Tess & Saundra Keeler. Discover contemporary romance novels filled with love, healing, and second chances.',
-  keywords: ['Tess Keeler', 'Saundra Keeler', 'romance author', 'contemporary romance', 'romance novels', 'Everything Comes Back to You', 'Closer to You', 'Make You Mine', 'More to This'],
+  description: 'Welcome to the official website of Tess Keeler and Saundra Keeler. Discover their contemporary romance novels including "Everything Comes Back to You", "More to This", and "Make You Mine". New releases, book updates, and author information.',
+  keywords: ['Tess Keeler author', 'Saundra Keeler author', 'Tess Keeler books', 'Saundra Keeler books', 'romance author', 'contemporary romance', 'romance novels', 'Everything Comes Back to You', 'Closer to You', 'Make You Mine', 'More to This', 'new romance books 2024'],
   authors: [
-    { name: 'Tess Keeler' },
-    { name: 'Saundra Keeler' }
+    { name: 'Tess Keeler', url: 'https://tesskeeler.com/about' },
+    { name: 'Saundra Keeler', url: 'https://tesskeeler.com/about' }
   ],
   creator: 'Tess & Saundra Keeler',
   publisher: 'Tess & Saundra Keeler',

@@ -5,7 +5,7 @@ export default function MoreToThis() {
     <BookPage
       emoji="💫"
       title="More to This"
-      coverImage="/images/More.png"
+      coverImage="/images/more.png"
       amazonLink="https://www.amazon.com/More-This-Tess-Keeler/dp/B0CV531LKJ"
       description={`Henley Moore was coasting by as the average self-destructive college student. When he wasn't partying with his twin brother's friends in Boulder, Colorado or meeting a new face to love for the night, he was trying not to think of the girl that hurt him for the first and last time. His first of everything…Or so he thought.
 
