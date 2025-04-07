@@ -1,52 +1,54 @@
 import Image from 'next/image';
+import Link from 'next/link';
+import WaveBackground from './WaveBackground';
 
 export default function FeaturedBook() {
   return (
-    <section className="w-full py-24 px-8">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between fade-in">
-        <div className="flex flex-col items-center md:items-start md:max-w-xl">
-          <div className="mb-12">
-            <Image
-              src="/images/heart-icon.svg"
-              alt="Heart icon"
-              width={60}
-              height={60}
-              className="opacity-80 hover:opacity-100 transition-opacity"
-            />
-          </div>
-
-          <h2 className="text-7xl font-serif title-gradient mb-8 text-center md:text-left">
-            Everything Comes Back to You
-          </h2>
-
-          <p className="text-center md:text-left max-w-2xl mb-12 text-xl leading-relaxed">
-            Best friends River and Aiden shared everything—from comic books to family struggles—until 
-            one vulnerable moment changed it all. After five years apart, River returns home, but he's 
-            not alone. As Aiden finds himself drawn back into River's orbit, they both must confront 
-            their past to discover if some loves are meant for a second chance.
-          </p>
-
-          <div className="flex space-x-6">
-            <button className="button-outline">
-              explore
-            </button>
-            <button className="button-primary">
-              buy now
-            </button>
-          </div>
-        </div>
-
-        <div className="mt-12 md:mt-0 md:ml-12 hover-float">
+    <div className="relative min-h-[90vh] flex items-center justify-center py-8 md:py-16">
+      <WaveBackground />
+      <div className="max-w-7xl mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+        {/* Book Cover */}
+        <Link 
+          href="https://www.amazon.com/Everything-Comes-Back-Tess-Keeler-ebook/dp/B0CV531LKJ"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="relative aspect-[2/3] max-w-[300px] md:max-w-md mx-auto w-full hover-float order-1 md:order-none"
+        >
           <Image
             src="/images/everything.png"
             alt="Everything Comes Back to You book cover"
-            width={400}
-            height={600}
-            className="rounded-lg shadow-2xl"
+            fill
+            className="object-cover rounded-lg shadow-2xl"
             priority
           />
+        </Link>
+
+        {/* Book Info */}
+        <div className="text-center md:text-left fade-in order-2 md:order-none">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif mb-4 md:mb-6 title-gradient">
+            Everything Comes Back to You
+          </h1>
+          <p className="text-base sm:text-lg md:text-xl mb-6 md:mb-8 max-w-prose mx-auto md:mx-0">
+            A second chance romance about finding yourself, and finding your way back to the one who got away.
+          </p>
+          <div className="flex flex-wrap gap-4 justify-center md:justify-start">
+            <Link
+              href="/books/everything-comes-back-to-you"
+              className="button-outline w-full sm:w-auto text-center"
+            >
+              explore
+            </Link>
+            <Link
+              href="https://www.amazon.com/Everything-Comes-Back-Tess-Keeler-ebook/dp/B0CV531LKJ"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="button-primary w-full sm:w-auto text-center"
+            >
+              buy now
+            </Link>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 } 

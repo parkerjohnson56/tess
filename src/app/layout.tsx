@@ -1,32 +1,35 @@
-import type { Metadata } from "next";
-import { Playfair_Display, Lato } from "next/font/google";
-import "./globals.css";
+import './globals.css';
+import { Playfair_Display, Lato } from 'next/font/google';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 const playfair = Playfair_Display({
-  subsets: ["latin"],
-  variable: "--font-playfair",
+  subsets: ['latin'],
+  variable: '--font-playfair',
 });
 
 const lato = Lato({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: "--font-lato",
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-lato',
 });
 
-export const metadata: Metadata = {
-  title: "Tess & Saundra Keeler | Fantasy Authors",
-  description: "Official website of fantasy authors Tess & Saundra Keeler. Explore their magical world through enchanting stories of love, friendship, and self-discovery.",
+export const metadata = {
+  title: 'Tess & Saundra Keeler | Romance Authors',
+  description: 'Official website of romance authors Tess & Saundra Keeler',
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en-US" className={`${playfair.variable} ${lato.variable}`}>
-      <body className="min-h-screen">
-        {children}
+    <html lang="en" className={`${playfair.variable} ${lato.variable}`}>
+      <body className="min-h-screen flex flex-col font-sans">
+        <Navbar />
+        <main className="flex-grow">{children}</main>
+        <Footer />
       </body>
     </html>
   );
