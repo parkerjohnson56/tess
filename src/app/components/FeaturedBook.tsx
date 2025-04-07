@@ -15,7 +15,7 @@ export default function FeaturedBook() {
           className="relative aspect-[2/3] max-w-[300px] md:max-w-md mx-auto w-full hover-float order-1 md:order-none"
         >
           <Image
-            src="/images/everything.png"
+            src="/images/Everything.png"
             alt="Everything Comes Back to You book cover"
             fill
             className="object-cover rounded-lg shadow-2xl"
