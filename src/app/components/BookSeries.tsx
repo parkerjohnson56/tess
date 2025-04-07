@@ -5,19 +5,19 @@ export default function BookSeries() {
   const books = [
     {
       title: "Everything Comes Back to You",
-      image: "/images/everything.png",
+      image: "/images/Everything.png",
       alt: "Everything Comes Back to You book cover",
       link: "/books/everything-comes-back-to-you"
     },
     {
       title: "Closer to You",
-      image: "/images/closer.png",
+      image: "/images/Closer.png",
       alt: "Closer to You book cover",
       link: "/books/closer-to-you"
     },
     {
       title: "Make You Mine",
-      image: "/images/mine.png",
+      image: "/images/Mine.png",
       alt: "Make You Mine book cover",
       link: "/books/make-you-mine"
     }

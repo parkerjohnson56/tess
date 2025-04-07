@@ -5,7 +5,7 @@ export default function MakeYouMine() {
     <BookPage
       emoji="🎤"
       title="Make You Mine"
-      coverImage="/images/makeyoumine.png"
+      coverImage="/images/Mine.png"
       amazonLink="https://www.amazon.com/Make-You-Mine-Tess-Keeler/dp/1794691154?ref_=ast_author_dp"
       description={`Nixon Brooks wasn't your ordinary nineteen-year-old. He was singer-songwriter of three number one albums and currently on his third world tour. Music was his passion, and nothing stood in his way of giving it 110%. Not even Rosie, his most recent ex-girlfriend incapable of handling his busy schedule.
 

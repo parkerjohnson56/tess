@@ -5,7 +5,7 @@ export default function CloserToYou() {
     <BookPage
       emoji="🎸"
       title="Closer to You"
-      coverImage="/images/closer.png"
+      coverImage="/images/Closer.png"
       amazonLink="https://www.amazon.com/Closer-Nixon-Brooks-Tess-Keeler/dp/1075829704?ref_=ast_author_dp"
       description={`Harper and Nixon found their way back to each other. They are starting their next adventure in Nashville while Nixon works on his fourth album. The two of them are adjusting to living together in a new city, with an uninvited, but not unwelcome, roommate: Mason. As their relationship matures, new obstacles stand in their way.
 

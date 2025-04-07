@@ -5,7 +5,7 @@ export default function EverythingComesBackToYou() {
     <BookPage
       emoji="💕"
       title="Everything Comes Back to You"
-      coverImage="/images/everything.png"
+      coverImage="/images/Everything.png"
       amazonLink="https://www.amazon.com/Everything-Comes-Back-Tess-Keeler-ebook/dp/B0CV531LKJ?ref_=ast_author_dp"
       description={`River and Aiden had been inseparable since Aiden's family moved in next door to their West Seattle home, nearly seven years prior to their senior year of high school. River Saxton was a seventeen-year-old who loved music and comics. Aiden Jacobs was a sixteen-year-old who loved painting and girls. They both bonded over their dysfunctional families and the love they shared for their small group of friends.
 
